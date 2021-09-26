@@ -1,0 +1,81 @@
+site_name: Bootstrap v5
+use_directory_urls: false
+
+plugins:
+    - search
+#    - pdf-export:
+#        combined: true
+
+nav:
+- Contenidos: 'README.md'
+- Introducción:
+    - Introducción: 'introduccion.md'
+    - Frameworks responsive: 'introduccion-frameworks.md'
+    - Funcionamiento del diseño adaptable: 'introduccion-funcionamiento.md'
+    - Probando el responsive: 'introduccion-pruebas.md'
+- Página básica: 'pagina-basica.md'
+- Sistema de rejilla:
+    - Funcionamiento: 'rejilla.md'
+    - Columnas de ancho específico: 'rejilla-columnas-de-ancho-especifico.md'
+    - Columnas de ancho automático: 'rejilla-columnas-de-ancho-automatico.md'
+    - Forzar el cambio de fila: 'rejilla-forzar-el-cambio-de-fila.md'
+    - Anidamiento de columnas: 'rejilla-anidamiento-de-columnas.md'
+    - Márgenes o espaciado entre columnas: 'rejilla-margenes-o-espaciado-entre-columnas.md'
+    - Ordenación de columnas: 'rejilla-ordenacion-de-columnas.md'
+    - Alineación: 'rejilla-alineacion.md'
+- Utilidades Responsive: 'utilidades-responsive.md'
+- Media Queries: 'media-queries.md'
+#- Componentes:
+#    - Componentes Responsive: 'componentes-responsive.md'
+#    - Botones: 'componentes-botones.md'
+#    - Desplegables: 'componentes-desplegables.md'
+#    - Grupos de botones: 'componentes-grupos-de-botones.md'
+#    - Formularios: 'componentes-formularios.md'
+#    - Navegación: 'componentes-navegacion.md'
+#    - Barra de navegación: 'componentes-barra-de-navegacion.md'
+#    - Tablas: 'componentes-tablas.md'
+- Ejercicios:
+    - Ejercicios 1: 'ejercicios-1.md'
+    - Ejercicios 2: 'ejercicios-2.md'
+#    - Ejercicios 3: 'ejercicios-3.md'
+#    - Ejercicios 4: 'ejercicios-4.md'
+- Bibliografía: 'bibliografia.md'
+
+
+theme:
+    language: es
+    name: 'material'
+    palette:
+        primary: 'Indigo'
+        accent: 'Indigo'
+    font:
+        text: 'Roboto'
+        code: 'Roboto Mono'
+    logo: 'assets/logo.png'
+
+# Ponemos como idioma de búsqueda el inglés
+# para conseguir que busque correctamente
+# todas las palabras en castellano, sin eliminar
+# los excesivos derivados que se definen en
+# https://github.com/MihaiValentin/lunr-languages/blob/master/lunr.es.js
+
+extra:
+    search:
+        language: 'en'
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+
+#     - pymdownx.superfences
+#    - pymdownx.arithmatex
+markdown_extensions:
+    - admonition
+    - codehilite:
+        linenums: true
+    - footnotes
+    - meta
+    - sane_lists
+    - toc:
+       permalink: true
+       toc_depth: 3
