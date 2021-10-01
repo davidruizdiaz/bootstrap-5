@@ -1,12 +1,12 @@
 # Ordenación de columnas
 
-También podemos modificar el orden visual de las columnas mediante la clase `.order-`. Esta clase permite  indicar la posición a la cual queremos desplazar la columna (del 1 al 12, por ejemplo `.order-1`, `.order-2`, etc.). También podemos especificar el tamaño de pantalla para el que queremos que se aplique (por ejemplo `.order-md-12`). A continuación se incluye un ejemplo:
+También podemos modificar el orden visual de las columnas mediante la clase `.order-`. Esta clase permite  indicar la posición a la cual queremos desplazar la columna (del 1 al 5, por ejemplo `.order-1`, `.order-2`, etc.). También podemos especificar el tamaño de pantalla para el que queremos que se aplique (por ejemplo `.order-md-3`). A continuación se incluye un ejemplo:
 
 ```html
 <div class="container">
   <div class="row">
     <div class="col">First, but unordered</div>
-    <div class="col order-12">Second, but last</div>
+    <div class="col order-3">Second, but last</div>
     <div class="col order-1">Third, but first</div>    <!-- ¡¡CUIDADO!! -->
   </div>
 </div>
@@ -22,7 +22,7 @@ Si nos fijamos en el resultado obtenido podemos ver que **no** se obtiene el res
 <div class="container">
   <div class="row">
     <div class="col order-2">First, but unordered</div>   <!-- Añadimos el orden de esta columna -->
-    <div class="col order-12">Second, but last</div>
+    <div class="col order-3">Second, but last</div>
     <div class="col order-1">Third, but first</div>
   </div>
 </div>
