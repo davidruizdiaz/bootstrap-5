@@ -4,14 +4,14 @@ Bootstrap nos facilita la creación de botones con listas de opciones desplegabl
 
 ```html
 <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
     Dropdown button
   </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">Action</a>
-    <a class="dropdown-item" href="#">Another action</a>
-    <a class="dropdown-item" href="#">Something else here</a>
-  </div>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
 </div>
 ```
 
@@ -21,14 +21,14 @@ Con lo que obtendríamos el siguiente resultado:
 
 Sobre el botón principal podemos aplicar todos los colores de botones que hemos visto en la sección titulada "Botones", por ejemplo "`.btn-success`" o "`.btn-danger`". También podemos añadir los modificadores de tamaño "`.btn-lg`" y "`.btn-sm`" para aumentar o disminuir el tamaño del botón del desplegable.
 
-Si nos fijamos en el código anterior, para el botón principal se ha usado la etiqueta "`button`" y para los elementos del desplegable la etiqueta "`a`", sin embargo podríamos haber usado solamente la etiqueta "`a`" o solamente la etiqueta "`button`", es decir, funcionan exactamente igual y su apariencia es la misma.
+Si nos fijamos en el código anterior, para el botón principal se ha usado la etiqueta "`button`" y los elementos del desplegable se definen mediante una lista (`<ul><li></li></ul>`). Sin embargo, el botón se puede definir también mediante la etiqueta "`a`" y el desplegable se puede crear usando un `<div>` en lugar de la lista `<ul>` y directamente las etiquetas `a` para cada uno de los elementos del desplegable, es decir, eliminando las etiquetas `li`.
 
 > Los atributos que empiezan con "aria" son para crear contenido accesible, para que los lectores de pantalla pueden encontrar las etiquetas correctas a la hora de interpretar el contenido. Para más información consultar la documentación sobre HTML 5 ARIA.
 
-Para alinear un menú a la derecha se puede añadir la clase `.dropdown-menu-right` a la lista "`dropdown-menu`", por ejemplo:
+Para alinear un menú a la derecha se puede añadir la clase `.dropdown-menu-end` a la lista "`dropdown-menu`", por ejemplo:
 
 ```html
-<div class="dropdown-menu dropdown-menu-right">
+<div class="dropdown-menu dropdown-menu-end">
 ```
 
 

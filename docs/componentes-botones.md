@@ -36,12 +36,11 @@ Obteniendo en todos los casos botones con la misma apariencia:
 
 ## Tamaño de los botones
 
-Podemos variar el tamaño de los botones simplemente añadiendo las clases `.btn-lg`, `.btn-sm` o `.btn-block`, para obtener botones con un tamaño más grande, más pequeño, o un botón que ocupe todo el ancho. Por ejemplo, con el siguiente código:
+Podemos variar el tamaño de los botones simplemente añadiendo las clases `.btn-lg` o `.btn-sm`, para obtener botones con un tamaño más grande o más pequeño. Por ejemplo, con el siguiente código:
 
 ```html
 <button type="button" class="btn btn-primary btn-lg">Large button</button>
 <button type="button" class="btn btn-primary btn-sm">Small button</button>
-<button type="button" class="btn btn-primary btn-block">Block button</button>
 ```
 
 Obtendríamos el siguiente resultado:

@@ -25,20 +25,20 @@ nav:
     - Alineación: 'rejilla-alineacion.md'
 - Utilidades Responsive: 'utilidades-responsive.md'
 - Media Queries: 'media-queries.md'
-#- Componentes:
-#    - Componentes Responsive: 'componentes-responsive.md'
-#    - Botones: 'componentes-botones.md'
-#    - Desplegables: 'componentes-desplegables.md'
-#    - Grupos de botones: 'componentes-grupos-de-botones.md'
-#    - Formularios: 'componentes-formularios.md'
-#    - Navegación: 'componentes-navegacion.md'
-#    - Barra de navegación: 'componentes-barra-de-navegacion.md'
-#    - Tablas: 'componentes-tablas.md'
+- Componentes:
+    - Componentes Responsive: 'componentes-responsive.md'
+    - Botones: 'componentes-botones.md'
+    - Desplegables: 'componentes-desplegables.md'
+    - Grupos de botones: 'componentes-grupos-de-botones.md'
+    - Formularios: 'componentes-formularios.md'
+    - Navegación: 'componentes-navegacion.md'
+    - Barra de navegación: 'componentes-barra-de-navegacion.md'
+    - Tablas: 'componentes-tablas.md'
 - Ejercicios:
     - Ejercicios 1: 'ejercicios-1.md'
     - Ejercicios 2: 'ejercicios-2.md'
-#    - Ejercicios 3: 'ejercicios-3.md'
-#    - Ejercicios 4: 'ejercicios-4.md'
+    - Ejercicios 3: 'ejercicios-3.md'
+    - Ejercicios 4: 'ejercicios-4.md'
 - Bibliografía: 'bibliografia.md'
 
 
