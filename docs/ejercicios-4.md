@@ -2,15 +2,13 @@
 
 ## Ejercicio 1 - Crear una Web responsive
 
-Para poner en práctica los conceptos teóricos sobre diseño _responsive,_ se propone como ejercicio la creación de un pequeño sitio Web estático que use los estilos y componentes de Bootstrap.
+Para poner en práctica los conceptos teóricos sobre diseño _responsive_, se propone como ejercicio la creación de un pequeño sitio Web estático que use los estilos y componentes de Bootstrap.
 
 La temática, contenidos y estilos del sitio son libres, pero deberá tener al menos las siguientes características:
 
 * El sitio estará formado por al menos 3 páginas enlazadas entre sí (con contenidos estáticos).
-* Ser completamente _ responsive_, de forma que se adapte tanto a pantallas extra pequeñas de _smartphone_ como a _tablets_
-   y pantallas más grandes de portátiles y de escritorio.
+* Ser completamente _responsive_, de forma que se adapte tanto a pantallas extra pequeñas de _smartphone_ como a _tablets_ y pantallas más grandes de portátiles y de escritorio.
 * Tener una barra de navegación principal que se contraiga cuando la pantalla sea pequeña. Esta barra tendrá al menos:
-
   * Dos enlaces.
   * Una imagen como logotipo.
   * Un buscador (aunque no sea funcional).
@@ -23,7 +21,7 @@ La temática, contenidos y estilos del sitio son libres, pero deberá tener al m
   * Un desplegable.
   * Una sección con fichas o pestañas.
   * Un formulario horizontal.
-  * Una tabla responsive con bordes y de tipo _ striped._
+  * Una tabla responsive con bordes y de tipo _striped_.
 
 * El estilo base a utilizar será el que define Bootstrap, si se definen estilos CSS personalizados tendrán que estar en un fichero separado, llamado "custom.css", y que será común para todas las páginas del sitio.
 
