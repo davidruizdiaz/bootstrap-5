@@ -1,13 +1,14 @@
-# Ordenación de columnas
+# 3.6. Ordenación de columnas
 
-También podemos modificar el orden visual de las columnas mediante la clase `.order-`. Esta clase permite  indicar la posición a la cual queremos desplazar la columna (del 1 al 5, por ejemplo `.order-1`, `.order-2`, etc.). También podemos especificar el tamaño de pantalla para el que queremos que se aplique (por ejemplo `.order-md-3`). A continuación se incluye un ejemplo:
+También podemos modificar el orden visual de las columnas mediante la clase `.order-`. Esta clase permite indicar la posición a la cual queremos desplazar la columna (del 1 al 5, por ejemplo `.order-1`, `.order-2`, etc.). También podemos especificar el tamaño de pantalla para el que queremos que se aplique (por ejemplo `.order-md-3`). A continuación se incluye un ejemplo:
 
 ```html
 <div class="container">
   <div class="row">
     <div class="col">First, but unordered</div>
     <div class="col order-3">Second, but last</div>
-    <div class="col order-1">Third, but first</div>    <!-- ¡¡CUIDADO!! -->
+    <div class="col order-1">Third, but first</div>
+    <!-- ¡¡CUIDADO!! -->
   </div>
 </div>
 ```
@@ -21,7 +22,8 @@ Si nos fijamos en el resultado obtenido podemos ver que **no** se obtiene el res
 ```html
 <div class="container">
   <div class="row">
-    <div class="col order-2">First, but unordered</div>   <!-- Añadimos el orden de esta columna -->
+    <div class="col order-2">First, but unordered</div>
+    <!-- Añadimos el orden de esta columna -->
     <div class="col order-3">Second, but last</div>
     <div class="col order-1">Third, but first</div>
   </div>
@@ -37,4 +39,3 @@ Como se puede ver también en este ejemplo, no es necesario que los números de 
 Hay que tener cuidado con estas clases si hay un salto de línea dentro de una misma fila (debido a que el número de columnas ocupe más de 12), ya que en estos casos el orden no funcionarán correctamente.
 
 También disponemos de la clase "`.order-first`", la cual nos permitirá situar cualquier elemento en primer lugar. Además, esta clase sí que funciona aunque haya un salto de línea.
-

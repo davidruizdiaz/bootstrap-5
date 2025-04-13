@@ -1,4 +1,4 @@
-# Anidamiento de columnas
+# 3.4. Anidamiento de columnas
 
 Una característica muy potente del sistema de rejilla es que se pueden anidar columnas dentro de otras columnas. Para esto solamente tenemos que crear una nueva fila dentro de una columna, y dentro de esta nueva fila podremos subdividirla usando también hasta 12 columnas.
 
@@ -19,4 +19,3 @@ Por ejemplo, en el siguiente código se crea una primera fila con una columna de
 Al visualizar este código obtendríamos:
 
 ![](assets/ejemplo-anidamiento-2.png)
-

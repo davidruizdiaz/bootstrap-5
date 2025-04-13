@@ -1,4 +1,4 @@
-# Navegación
+# 6.5. Navegación
 
 Los elementos de navegación de Bootstrap comparten la etiqueta `.nav` para su marcado en la clase contenedora. Estos elementos necesitan la librería JavaScript para su correcto funcionamiento. Algunos de los elementos de navegación que podemos utilizar son las fichas o pestañas y las "píldoras".
 
@@ -23,7 +23,7 @@ Mediante la clase `.nav-tabs` podemos crear un grupo de pestañas o fichas, para
 </ul>
 ```
 
-Es importante que nos fijemos en cómo se usan las clases CSS `.nav`, `.nav-tabs`, `.nav-item` y `.nav-link`. Cada elemento del menú será un `.nav-item`, los cuales contienen un enlace tipo `.nav-link` a la sección a mostrar. Para marcar el elemento del menú que está activo o seleccionado se utiliza la clase `.active`.  Además disponemos de la clase `.disabled` para deshabilitar elementos del menú.
+Es importante que nos fijemos en cómo se usan las clases CSS `.nav`, `.nav-tabs`, `.nav-item` y `.nav-link`. Cada elemento del menú será un `.nav-item`, los cuales contienen un enlace tipo `.nav-link` a la sección a mostrar. Para marcar el elemento del menú que está activo o seleccionado se utiliza la clase `.active`. Además disponemos de la clase `.disabled` para deshabilitar elementos del menú.
 
 Si visualizamos el código de ejemplo anterior obtendríamos un menú en forma de pestañas como el siguiente:
 
@@ -114,8 +114,15 @@ También podemos añadir elementos desplegables a nuestros menús de navegación
     <a class="nav-link active" href="#">Active</a>
   </li>
   <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-       aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <a
+      class="nav-link dropdown-toggle"
+      data-bs-toggle="dropdown"
+      href="#"
+      role="button"
+      aria-haspopup="true"
+      aria-expanded="false"
+      >Dropdown</a
+    >
     <div class="dropdown-menu">
       <a class="dropdown-item" href="#">Action</a>
       <a class="dropdown-item" href="#">Another action</a>
@@ -136,4 +143,3 @@ También podemos añadir elementos desplegables a nuestros menús de navegación
 Con lo que obtendríamos un resultado como el de la siguiente figura:
 
 ![](assets/nav-dropdown.png)
-

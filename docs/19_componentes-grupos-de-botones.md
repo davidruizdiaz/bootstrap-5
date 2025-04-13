@@ -1,4 +1,4 @@
-# Grupos de botones
+# 6.3. Grupos de botones
 
 Podemos crear un grupo de botones en una línea agrupándolos dentro de un elemento contenedor con la etiqueta `.btn-group`.
 
@@ -64,12 +64,23 @@ Con lo que podríamos obtener grupos de botones de diferentes tamaños:
 También es posible añadir desplegables a los grupos de botones. Para esto el desplegable tendrá que estar contenido a su vez dentro de otro grupo de botones, de la forma:
 
 ```html
-<div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+<div
+  class="btn-group"
+  role="group"
+  aria-label="Button group with nested dropdown"
+>
   <button type="button" class="btn btn-secondary">1</button>
   <button type="button" class="btn btn-secondary">2</button>
 
   <div class="btn-group" role="group">
-    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <button
+      id="btnGroupDrop1"
+      type="button"
+      class="btn btn-secondary dropdown-toggle"
+      data-bs-toggle="dropdown"
+      aria-haspopup="true"
+      aria-expanded="false"
+    >
       Dropdown
     </button>
     <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
@@ -85,4 +96,3 @@ El resultado visual obtenido sería el siguiente:
 ![](assets/btn-group-drowdown.png)
 
 Como se puede observar en el código de ejemplo anterior, la única diferencia con un desplegable normal es que la etiqueta contenedora en vez de ser de tipo `.dropdown` es un `.btn-group`.
-

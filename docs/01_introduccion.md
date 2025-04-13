@@ -1,4 +1,4 @@
-# Introducción al diseño "_responsive_"
+# 1. Introducción al diseño "_responsive_"
 
 El diseño web _responsive_, adaptable o adaptativo, conocido por las siglas _RWD_ (del inglés, _Responsive Web Design_) es una filosofía de diseño y desarrollo cuyo objetivo es adaptar la apariencia de las páginas web al dispositivo que se esté utilizando para visualizarla. Hoy día las páginas web se visualizan en multitud de tipos de dispositivos como tabletas, _smartphones_, libros electrónicos, portátiles, PCs, etc. Esta tecnología pretende que con un solo diseño web tengamos una visualización adecuada en cualquier dispositivo.
 
@@ -18,16 +18,16 @@ Desde hace ya unos años en el desarrollo web se ha sustituido en cierta medida 
 
 En la siguiente tabla se pueden ver estadísticas de las resoluciones de pantalla más utilizadas:
 
-| Resolución | % utilización |
-| :--- | :--- |
-| **&gt; 1920x1080** | 34% |
-| 1920x1080 | 13% |
-| **1366x768** | 31% |
-| 1280x1024 | 8% |
-| 1280x800 | 7% |
-| 1024x768 | 6% |
-| 800×600 | 0.5% |
-| &lt; 800×600 | 0.5% |
+| Resolución         | % utilización |
+| :----------------- | :------------ |
+| **&gt; 1920x1080** | 34%           |
+| 1920x1080          | 13%           |
+| **1366x768**       | 31%           |
+| 1280x1024          | 8%            |
+| 1280x800           | 7%            |
+| 1024x768           | 6%            |
+| 800×600            | 0.5%          |
+| &lt; 800×600       | 0.5%          |
 
 En la actualidad ya no es 1024x768 la resolución más utilizada, sino que es 1366×768 y resoluciones superiores a 1920x1080.
 
@@ -52,6 +52,3 @@ En un artículo llamado: "_Responsive Web Design: 50 Examples and Best Practices
 **Deren keskin**
 
 ![](assets/web_responsive/example_deren_keskin.jpg "Deren keskin")
-
-
-

@@ -1,4 +1,4 @@
-# Tablas
+# 6.7. Tablas
 
 Bootstrap también define una serie de clases para aplicar estilos sobre las tablas de HTML. La más básica es la clase `.table`:
 
@@ -14,23 +14,19 @@ La cual configura los estilos de las tablas básicas de HTML para que adopten el
 
 En la tabla anterior las celdas de la primera fila estarían marcadas con "th" y el resto de celdas con "td".
 
-
-
 ## Tablas pequeñas
 
 Si queremos compactar el tamaño de la tabla para que deje un padding (o espaciado interior) inferior, podemos aplicar la clase `.table-sm` de la forma:
 
 ```html
 <table class="table table-sm">
-    ...
+  ...
 </table>
 ```
 
 Obteniendo:
 
 ![](assets/table-sm.png)
-
-
 
 ## **Colores alternos**
 
@@ -75,4 +71,3 @@ Obteniendo:
 ![](assets/table-responsive.png)
 
 Este efecto se aplicará únicamente sobre dispositivos pequeños (`<576px`) mientras que en el resto de dispositivos no se notará la diferencia. Si queremos que el punto de ruptura a partir del cual se aplique el responsive sobre la tabla sea un tamaño mayor podemos indicar un sufijo de tamaño sobre esta etiqueta, de la forma `.table-responsive-*`, donde "`*`" podrá ser `sm`, `md`, `lg`, `xl` o `xxl`.
-

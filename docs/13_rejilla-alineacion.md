@@ -1,4 +1,4 @@
-# Alineación
+# 3.7. Alineación
 
 Con la nueva versión de Bootstrap también han aparecido nuevas clases que nos permiten especificar la alineación de las columnas tanto en horizontal como en vertical.
 
@@ -32,7 +32,7 @@ Con lo que obtendríamos un resultado como el de la siguiente figura:
 
 ![](assets/ejemplo-alineacion-1.png)
 
-En el segundo caso, si queremos indicar por separado la alineación vertical de cada una de las columnas de una fila, tendremos que usar la clase CSS `.align-self-*`, donde "\*" podrá adoptar los mismos valores:  `start`, `center` o `end`. A continuación se incluye un ejemplo en el que se indican los tres tipos de alineaciones dentro de una misma fila:
+En el segundo caso, si queremos indicar por separado la alineación vertical de cada una de las columnas de una fila, tendremos que usar la clase CSS `.align-self-*`, donde "\*" podrá adoptar los mismos valores: `start`, `center` o `end`. A continuación se incluye un ejemplo en el que se indican los tres tipos de alineaciones dentro de una misma fila:
 
 ```html
 <div class="container">
@@ -49,8 +49,6 @@ Con lo que obtendremos el siguiente resultado:
 ![](assets/ejemplo-alineacion-2.png)
 
 > Es importante destacar que al utilizar cualquierda de estas etiquetas de alineación, la altura de las columnas **se ajustará al contenido**, mientras que si no utilizamos ninguna etiqueta de alineación, la altura de la celda se **extenderá hasta ocupar todo el espacio disponible** en la fila.
-
-
 
 ## Alineación horizontal
 
@@ -92,10 +90,7 @@ En caso de que lo necesitemos podremos añadir también el tamaño de pantalla a
 Al indicar el tamaño de pantalla dicha alineación se aplicará solamente a partir de dicho tamaño en adelante, aunque también podemos indicar distintas alineaciones para un mismo campo según el tamaño de la pantalla, por ejemplo:
 
 ```html
-<div class="row justify-content-center justify-content-md-start">
-     ...
-</div>
+<div class="row justify-content-center justify-content-md-start">...</div>
 ```
 
 En el ejemplo anterior el contenido se alinearía de forma centrada para los tamaños de pantalla extra pequeños y pequeños, y cambiará a alineazión izquierda a partir del tamaño de pantalla "md".
-

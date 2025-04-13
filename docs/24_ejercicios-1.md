@@ -1,4 +1,6 @@
-# Ejercicios 1
+# 7. Ejercicios
+
+# 7.1. Ejercicios 1
 
 ## Ejercicio 1 - Uso de la rejilla
 
@@ -7,9 +9,6 @@ En este ejercicio vamos a practicar con la librería Bootstrap y su sistema de r
 ![](assets/ejercicios/ejercicio-1-0.png)
 
 En el esquema se diferencia entre dos posibles tamaños de pantalla: tamaños pequeños (xs) y resto de tamaños (a partir del tamaño sm en adelante). Tenéis que aplicar las clases de Bootstrap necesarias para que al cambiar el tamaño de la pantalla se cambie la disposición de los bloques como se muestra en el esquema.
-
-
-
 
 ## Ejercicio 2 - Uso avanzado del sistema de rejilla
 

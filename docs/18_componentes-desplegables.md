@@ -1,10 +1,16 @@
-# Desplegables
+# 6.2. Desplegables
 
 Bootstrap nos facilita la creación de botones con listas de opciones desplegables mediante la clase `.dropdown`. Este elemento requiere que el _plugin_ JavaScript de Bootstrap esté incluido en la plantilla. La estructura básica para crear un elemento de este tipo es la siguiente:
 
 ```html
 <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  <button
+    class="btn btn-secondary dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton1"
+    data-bs-toggle="dropdown"
+    aria-expanded="false"
+  >
     Dropdown button
   </button>
   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -28,10 +34,8 @@ Si nos fijamos en el código anterior, para el botón principal se ha usado la e
 Para alinear un menú a la derecha se puede añadir la clase `.dropdown-menu-end` a la lista "`dropdown-menu`", por ejemplo:
 
 ```html
-<div class="dropdown-menu dropdown-menu-end">
+<div class="dropdown-menu dropdown-menu-end"></div>
 ```
-
-
 
 ## Encabezados en un desplegable
 
@@ -48,8 +52,6 @@ Para añadir un encabezado (o varios) y dividir en secciones un desplegable pode
 Con lo que obtendremos:
 
 ![](assets/dropdown-header.png)
-
-
 
 ## Separadores en un desplegable
 
@@ -68,4 +70,3 @@ También podemos añadir separadores en un desplegable mediante la clase `.dropd
 Con lo que obtendríamos el siguiente listado con separador:
 
 ![](assets/dropdown-divider.png)
-

@@ -1,4 +1,4 @@
-# Probando el responsive
+# 1.3. Probando el responsive
 
 Para probar nuestros diseños _responsive_ tenemos varias opciones, una de ellas es usar algunas de las webs que existen para tal fin. Como por ejemplo:
 
@@ -19,4 +19,3 @@ Tanto en Firefox como Chrome viene instalado por defecto una serie de herramient
 Además de estas también existen otras herramientas más avanzadas que podemos instalar como una extensión de nuestro navegador, como por ejemplo Firebug.
 
 La ventaja de estas herramientas frente a las anteriores es que son muchos más rápidas, nos permiten probar nuestra página en local y además podemos inspeccionar el código y modificar los estilos en tiempo real. Usando el inspector de estas herramientas nos podemos ahorrar mucho tiempo a la hora de realizar pruebas sobre la propia página cargada, ya que de otra forma tendríamos que modificar el código directamente, recargar la página y volver a probarlo.
-

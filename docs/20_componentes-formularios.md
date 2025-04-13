@@ -1,4 +1,4 @@
-# Formularios
+# 6.4. Formularios
 
 Bootstrap aplica estilos a los elementos de tipo formulario para convertirlos en elementos responsive, mejorar su apariencia y permitirnos crear diferentes alineaciones. La estructura básica de un formulario es la siguiente:
 
@@ -6,8 +6,13 @@ Bootstrap aplica estilos a los elementos de tipo formulario para convertirlos en
 <form>
   <div>
     <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1"
-           aria-describedby="emailHelp" placeholder="Enter email">
+    <input
+      type="email"
+      class="form-control"
+      id="exampleInputEmail1"
+      aria-describedby="emailHelp"
+      placeholder="Enter email"
+    />
   </div>
 </form>
 ```
@@ -20,27 +25,26 @@ Para permitir que Bootstrap ajuste correctamente el espaciado, cada bloque o gru
 
 Bootstrap sobrecarga y aplica estilos a los principales elementos de formulario definidos en HTML 5, como son: _text, password, datetime, datetime-local, date, month, time, week, number, email, url, search, tel_ y _color_.
 
-
 ## Formulario _inline_
 
 Mediante la utilización del sistema de rejilla de Bootstrap podemos crear distintas disposiciones para los formularios.
 
- la clase `.form-inline` sobre la etiqueta `<form>` podemos crear formularios que se dispondrán en una sola línea. A continuación se incluye un ejemplo de este tipo de formularios:
+la clase `.form-inline` sobre la etiqueta `<form>` podemos crear formularios que se dispondrán en una sola línea. A continuación se incluye un ejemplo de este tipo de formularios:
 
 ```html
 <form>
   <div class="row">
-     <div class="col-auto">
-        <label class="visually-hidden form-label">User</label>
-        <input type="email" class="form-control" placeholder="User">
-     </div>
-     <div class="col-auto">
-        <label class="visually-hidden form-label">Password</label>
-        <input type="password" class="form-control" placeholder="Pass">
-     </div>
-     <div class="col-auto">
-        <button type="submit" class="btn btn-primary">Confirm</button>
-     </div>
+    <div class="col-auto">
+      <label class="visually-hidden form-label">User</label>
+      <input type="email" class="form-control" placeholder="User" />
+    </div>
+    <div class="col-auto">
+      <label class="visually-hidden form-label">Password</label>
+      <input type="password" class="form-control" placeholder="Pass" />
+    </div>
+    <div class="col-auto">
+      <button type="submit" class="btn btn-primary">Confirm</button>
+    </div>
   </div>
 </form>
 ```
@@ -51,7 +55,6 @@ Obteniendo el siguiente resultado:
 
 > Aunque los campos del formulario no contengan etiquetas (_labels_) es necesario incluirlas por cuestiones de accesibilidad, para dar soporte a los lectores de pantalla. Por este motivo se han incluido en el ejemplo anterior con la clase `.visually-hidden`.
 
-
 ## Formulario horizontal
 
 Mediante el uso del sistema de rejilla de Bootstrap también podemos crear formularios horizontales cuyos elementos cambien de tamaño o alineación en función del tamaño de pantalla. Para esto tendremos que crear una fila (`.row`) por cada grupo, y situar la etiqueta y el input cada uno en una columna. A continuación se incluye un ejemplo:
@@ -61,22 +64,32 @@ Mediante el uso del sistema de rejilla de Bootstrap también podemos crear formu
   <div class="row mb-3">
     <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      <input
+        type="email"
+        class="form-control"
+        id="inputEmail3"
+        placeholder="Email"
+      />
     </div>
   </div>
   <div class="row mb-3">
     <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
     <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+      <input
+        type="password"
+        class="form-control"
+        id="inputPassword3"
+        placeholder="Password"
+      />
     </div>
   </div>
   <div class="row mb-3">
     <div class="col-sm-2">Checkbox</div>
     <div class="col-sm-10">
       <div class="form-check">
-    <label class="form-check-label">
-      <input class="form-check-input" type="checkbox"> Check me out
-    </label>
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" /> Check me out
+        </label>
       </div>
     </div>
   </div>
@@ -93,7 +106,6 @@ Con lo que obtendríamos:
 ![](assets/form-horizontal.png)
 
 Es importante que nos fijemos que la etiqueta `.row` se añade al `div` de cada grupo. Además, podemos aplicar la clase de las columnas para las etiquetas `label` directamente sobre dicho elemento, sin necesidad de crear una caja contenedora. Aunque en este caso tendremos que cambiar la clase `.form-label` por la clase `.col-form-label`.
-
 
 <!--
 
@@ -146,3 +158,4 @@ Con lo que obtendríamos el siguiente resultado:
 ![](assets/forms-input-addon.png)
 
 -->
+

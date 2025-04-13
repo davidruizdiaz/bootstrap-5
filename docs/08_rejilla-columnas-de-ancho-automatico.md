@@ -1,4 +1,4 @@
-# Columnas de ancho automático
+# 3.2. Columnas de ancho automático
 
 A partir de la versión 4 de Bootstrap podemos utilizar las columnas de ancho automático, es decir, indicar únicamente el número de columnas que queremos y el sistema calculará automáticamente su anchura. Para esto podremos usar **la clase "**`.col`**"**, sin número de columnas ni tamaño de pantalla, por ejemplo:
 
@@ -36,7 +36,7 @@ Estamos indicando que queremos una fila con tres columnas de ancho automático p
 
 ## Modo mixto
 
-Estas columnas de ancho automático se pueden mezclar **en una misma fila **con las columnas de ancho específico que hemos visto antes. La forma de calcular el ancho de cada columna será el siguiente: En primer lugar se calculará el tamaño de las columnas de ancho específico y a continuación se rellenará el espacio restante usando las columnas de ancho automático. Por ejemplo, a continuación vamos a definir dos filas mezclando ambos tipos de columnas:
+Estas columnas de ancho automático se pueden mezclar **en una misma fila**con las columnas de ancho específico que hemos visto antes. La forma de calcular el ancho de cada columna será el siguiente: En primer lugar se calculará el tamaño de las columnas de ancho específico y a continuación se rellenará el espacio restante usando las columnas de ancho automático. Por ejemplo, a continuación vamos a definir dos filas mezclando ambos tipos de columnas:
 
 ```html
 <div class="container">
@@ -83,6 +83,3 @@ Con lo que obtendríamos un resultado similar al de la siguiente figura:
 ![](assets/ejemplo-col-variable.png)
 
 En el código anterior se ha usado la clase "`.justify-content-md-center`" para alinear el contenido dentro de una fila, estas etiquetas las veremos en la sección "Alineación". A continuación vamos a ver otras utilidades del sistema de rejilla, como el anidamiento de columnas, o cómo forzar el cambio de fila.
-
-
-
